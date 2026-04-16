@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage 1B | Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <header class="profile-header">
+          <figure class="avatar-container">
+            <img
+              src="assets/Me..png"
+              alt="Habakkuk Jama'a Chabagaje"
+              data-testid="test-user-avatar"
+              class="avatar"
+            />
+          </figure>
+          <h2 data-testid="test-user-name">Habakkuk Jama'a Chabagaje</h2>
+          <p data-testid="test-user-bio">
+            WordPress & Front End Software Developer specializing in
+            high-performance e-commerce and corporate platforms.
+          </p>
+        </header>
+
+        <section class="time-section">
+          <strong>Current Epoch Time:</strong>
+          <span data-testid="test-user-time" aria-live="polite"></span>
+        </section>
+
+        <div class="interests-grid">
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Networking</li>
+              <li>Listening to Music</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Inefficient Workflows</li>
+              <li>Poor Documentation</li>
+            </ul>
+          </section>
+        </div>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+          <a
+            href="https://github.com/Chabagaje"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-github"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/habakkuk-jama-a-chabagaje"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-linkedin"
+            >LinkedIn</a
+          >
+        </nav>
+      </article>
+    </main>
+  </body>
+</html>
